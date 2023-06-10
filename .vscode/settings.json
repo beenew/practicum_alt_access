@@ -1,0 +1,45 @@
+{
+    "cSpell.words": [
+        "AIRBLUE",
+        "AIRSIAL",
+        "Appsflyer",
+        "Desig",
+        "Farebreakdowns",
+        "Freshchat",
+        "KONNECT",
+        "Mixpanel",
+        "ONEWAY",
+        "SFSFSFSF",
+        "Sastaticket",
+        "Sasti",
+        "checkin",
+        "cybersource",
+        "inappwebview",
+        "sasta",
+        "sclsp",
+        "segs",
+        "webengage"
+    ],
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": "messages/strings.dart$",
+                "cmd": "source ~/.zshrc && dart scripts/genIntlJson.dart --file ${relativeFile} --no-translate"
+            },
+            {
+                "match": "messages/strings.dart$",
+                "cmd": "source ~/.zshrc && dart scripts/genIntlKeys.dart --file ${relativeFile} --no-translate"
+            },
+            {
+                "match": "strings.dart$",
+                "cmd": "dart scripts\\genIntlJson.dart --file ${relativeFile} --no-translate"
+            },
+            {
+                "match": "strings.dart$",
+                "cmd": "dart scripts\\genIntlKeys.dart --file ${relativeFile} --no-translate"
+            }
+        ]
+    },
+    "dart_data_class_generator.camel_case": true,
+    "dart_data_class_generator.json_snake_case": true,
+}

@@ -1,0 +1,63 @@
+{
+ "version": "1.0.0",
+ "configurations": [
+  {
+   "name": "Flutter",
+   "request": "launch",
+   "type": "dart"
+  },
+  {
+   "name": "2201116TG (mobile)",
+   "deviceId": "95D6R8DI4DHAXKJJ",
+   "type": "dart",
+   "request": "launch",
+   "args": [
+    "--flavor",
+    "dev"
+   ]
+  },
+  {
+   "name": "Windows (desktop)",
+   "deviceId": "windows",
+   "type": "dart",
+   "request": "launch",
+   "args": [
+    "--flavor",
+    "dev",
+    "-t",
+    "lib/main.desktop.dart"
+   ]
+  },
+  {
+   "name": "Chrome (web)",
+   "deviceId": "chrome",
+   "type": "dart",
+   "request": "launch",
+   "args": [
+    "--flavor",
+    "dev"
+   ]
+  },
+  {
+   "name": "Edge (web)",
+   "deviceId": "edge",
+   "type": "dart",
+   "request": "launch",
+   "args": [
+    "--flavor",
+    "dev"
+   ]
+  }
+ ],
+ "compounds": [
+  {
+   "name": "current",
+   "configurations": [
+    "2201116TG (mobile)",
+    "Windows (desktop)",
+    "Chrome (web)",
+    "Edge (web)"
+   ]
+  }
+ ]
+}
